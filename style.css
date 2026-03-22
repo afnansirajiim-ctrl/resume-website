@@ -45,3 +45,21 @@ nav a {
 section {
   padding: 50px;
 }
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding: 60px 80px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+
+
+
+
