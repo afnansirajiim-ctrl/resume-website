@@ -125,3 +125,6 @@ h2 {
   flex: 1;
   max-width: 500px;
 }
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
