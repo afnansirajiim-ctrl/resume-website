@@ -201,3 +201,123 @@ h2 {
   color: #555;
   font-size: 14px;
 }
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7f6;
+  color: #333;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav h2 {
+  color: #2e7d6d;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero img {
+  width: 140px;
+  border-radius: 50%;
+}
+
+/* ABOUT */
+.about-container {
+  display: flex;
+  gap: 60px;
+  padding: 80px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.about-text button {
+  background: #2e7d6d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 120px;
+}
+
+/* TIMELINE */
+.timeline {
+  max-width: 700px;
+  margin: auto;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  width: 2px;
+  height: 100%;
+  background: #ccc;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  background: #2e7d6d;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+}
+
+.timeline-content {
+  margin-left: 30px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* SKILLS */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background: #e6f2ef;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
