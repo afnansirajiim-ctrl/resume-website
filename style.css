@@ -92,6 +92,9 @@ body {
 nav a:hover {
   color: #2e7d6d;
 }
-
+ul {
+  list-style: none;
+  padding: 0;
+}
 
 
