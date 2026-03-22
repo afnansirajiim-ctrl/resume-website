@@ -101,5 +101,10 @@ section {
   max-width: 900px;
   margin: auto;
 }
+h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
 
 
