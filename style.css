@@ -54,11 +54,8 @@ nav a:hover {
   font-size: 40px;
 }
 
-/* SECTIONS */
 section {
   padding: 60px 120px;
-  max-width: 900px;
-  margin: auto;
 }
 
 h2 {
