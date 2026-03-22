@@ -78,6 +78,20 @@ nav a {
   font-weight: 500;
 }
 
+.hero img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+body {
+  background-color: #f5f7f6;
+  color: #333;
+}
+nav a:hover {
+  color: #2e7d6d;
+}
 
 
 
