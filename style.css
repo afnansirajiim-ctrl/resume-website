@@ -11,9 +11,8 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #f8e8c8;  
+ background: #f6e7c1;
   border-bottom: 1px solid #e5d3a3;
-
 }
 
 nav h2 {
