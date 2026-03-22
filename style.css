@@ -96,5 +96,10 @@ ul {
   list-style: none;
   padding: 0;
 }
+section {
+  padding: 60px 120px;
+  max-width: 900px;
+  margin: auto;
+}
 
 
