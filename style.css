@@ -65,3 +65,50 @@ h2 {
   font-size: 28px;
   margin-bottom: 15px;
 }
+.about-section {
+  padding: 80px 120px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* LEFT IMAGE */
+.about-image img {
+  width: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* RIGHT TEXT */
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* BUTTON */
+.about-text button {
+  margin-top: 10px;
+  padding: 12px 20px;
+  border: none;
+  background-color: #2e7d6d;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.about-text button:hover {
+  background-color: #25665a;
+}
