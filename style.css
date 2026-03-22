@@ -128,3 +128,76 @@ h2 {
 .timeline-item:last-child {
   margin-bottom: 0;
 }
+/* EDUCATION SECTION */
+.education-section {
+  padding: 100px 120px;
+  background-color: #f9fbfb;
+}
+
+/* Title center */
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+/* Timeline container */
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #cfd8dc;
+}
+
+/* Each item */
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* Dot */
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #2e7d6d;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+  top: 8px;
+}
+
+/* Content */
+.timeline-content {
+  margin-left: 30px;
+}
+
+/* Headings */
+.timeline-content h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Degree text */
+.degree {
+  color: #2e7d6d;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+/* Description */
+.details {
+  color: #555;
+  font-size: 14px;
+}
